@@ -27,7 +27,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1356469075").split())
+    map(int, getenv("OWNER_ID", "1063334882").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -43,9 +43,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/DevilsHeavenMF")
+    "SUPPORT_CHANNEL", "https://t.me/Xd_About")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+    "SUPPORT_GROUP", "https://t.me/ALONExSUPPORT")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
